@@ -1,5 +1,5 @@
 /*! https://mths.be/punycode v1.4.1 by @mathias */
-window.punnycode =  function() {
+
 	/**
 	 * The `punycode` object.
 	 * @name punycode
@@ -489,5 +489,4 @@ window.punnycode =  function() {
 		'toUnicode': toUnicode
 	};
 
-    return punnycode;
-}
+    window.punnycode = punycode;
